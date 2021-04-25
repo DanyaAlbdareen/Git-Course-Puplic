@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+ .appBarHeader{
+   background-color: #EB6B17;
+ }
+ #image {
+    margin-top: 0px;
+    width: 60px;
+    height: 30px
+  } 
+  
+  .toolbar{
+    margin-left:25px;
+  }
+  .titleJob{
+    padding-left: 10px;
+    color: black;
+  }
+
+   @media  screen and (device-width:1024px){
+    .toolbar{
+      margin-left:100px;
+    }
+   }
+   @media  screen and (device-width:768px){
+    .toolbar{
+      margin-left:15px;
+    }
+   }
+   @media  screen and (device-width:360px){
+    .toolbar{
+      margin-left:0px;
+    }
+   }
+   @media  screen and (device-width:411px) {
+    .toolbar{
+      margin-left:25px;
+    }
+   }
+   
+   @media  screen and (device-width:414px) {
+    .toolbar{
+      margin-left:28px;
+    }
+   }
+   @media  screen and (device-width:540px){
+    .toolbar{
+      margin-left:55px;
+    }
+} 

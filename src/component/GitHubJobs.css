@@ -1,0 +1,120 @@
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+.insideContainer{
+    height:500px;
+     width:1200px;
+  }
+.insideContainer .titlePage{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.insideContainer .pagination {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+.btnCard{
+  position: absolute
+}
+ 
+
+@media  screen and (device-width:360px){
+    .insideContainer{
+         width:330px
+      }
+    .insideContainer .titlePage{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+   }
+  
+   @media  screen and (device-width:411px) {
+    .insideContainer{
+         width:330px
+      }
+    .insideContainer .titlePage{
+        margin-left:10px;
+        font-size: 20px;
+    }
+   
+   }
+   @media  screen and (device-width:414px){
+    .insideContainer{
+         width:330px
+      }
+    .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 20px;
+    }
+   }
+   @media  screen and (device-width:320px){
+    .insideContainer{
+         width:290px
+      }
+    .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 20px;
+    }
+   }
+
+   @media  screen and (device-width:375px){
+    .insideContainer{
+         width:330px
+      }
+    .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 20px;
+    }
+   }
+
+   @media  screen and (device-width:1024px){
+    .insideContainer{
+         width:800px;
+      }    
+      .insideContainer .titlePage{
+        margin-left:20px;
+        font-size: 20px;
+    }
+   }
+
+   @media  screen and (device-width:768px){
+    .insideContainer{
+         width:700px;
+      }    
+      .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 20px;
+    }
+   }
+
+   
+   @media  screen and (device-width:540px){
+    .insideContainer{
+         width:400px;
+      }    
+      .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 20px;
+    }
+   }
+   @media  screen and (device-width:280px){
+    .insideContainer{
+         width:200px;
+      }    
+      .insideContainer .titlePage{
+        margin-left:0px;
+        font-size: 15px;
+    }
+   }
+
+

@@ -1,0 +1,104 @@
+
+
+.navbar {
+    width:99%;
+    height:50px;
+    margin: 0 auto;
+    background-color:#F4F4F4;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+  }
+
+  .navbar .form #inputs{
+    float: left;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #dddddd;
+
+  }
+ 
+  .navbar  #btn{
+    float: right;
+  }
+
+.navbar #btn {
+    margin-right: 90px;
+    margin-top:8px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FF7900;
+    color: white;
+    border: none;
+    border-radius: 2px;
+ }
+ .navbar #btn:hover{
+  background-color:#F9F9F9 ;
+  color:#FF7900 ;
+  border: 1px solid #FF7900;
+  
+}
+
+ @media  screen and (min-device-width:300px) and (max-device-width:708px){
+  .navbar .form #inputs{
+    padding: 5px;
+    display: inline;
+    width:90px;
+    margin-right:0px;
+  }
+  .navbar #btn {
+    margin-right:10px;
+    margin-top:9px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+
+ }
+ }
+
+ @media  screen and (device-width:320px) {
+  .navbar .form #inputs{
+    padding: 5px;
+    display: inline;
+    width:85px;
+    margin-right:0px;
+  }
+  .navbar #btn {
+    margin-right:5px;
+    margin-top:10px;
+    padding:6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+
+ }
+ }
+
+ @media  screen and (device-width:280px){
+  .navbar {
+    width:110%;
+    height:40px;
+  }
+  .navbar .form #inputs{
+    padding:3px;
+    display: inline;
+    width:60px;
+    margin-right:0px;
+  }
+  .navbar #btn {
+    margin-right:5px;
+    margin-top:10px;
+    padding:5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 10px;
+ }
+ }
+ @media  screen and (device-width:1024px){
+  .navbar {
+    width:97%;
+  }
+ }

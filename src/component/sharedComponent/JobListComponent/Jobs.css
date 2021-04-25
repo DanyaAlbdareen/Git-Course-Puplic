@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: #F9F9F9;
+}
+
+  .jobList span{
+    font-weight: normal;
+    text-align: left;
+    color:#949494;
+    font-size: 12px;
+
+}
+.jobList #line{
+  border-bottom: 1.5px solid #d3d3d3;
+  padding-top:5px;
+  width:130px;
+
+}
+
+
+#btnView{
+  position: relative;
+
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1.5px solid #FFA859;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#FFA859 ;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+ 
+#btnView:hover{
+  
+  background-color: #FFA859;
+  
+  color:white;
+ 
+
+}
